@@ -1,0 +1,17 @@
+{
+    "solver": {
+        "type": "finite_difference",        
+        "max_iterations": 1000,             
+        "convergence_tolerance": 1e-6       
+    },
+    "output": {
+        "save_interval": 0.1,              
+        "output_directory": "results",     
+        "logging": true                    
+    },
+    "visualization": {
+        "enable": true,                   
+        "resolution": [1920, 1080],        
+        "plot_variables": ["velocity", "drag_force", "rolling_resistance"] 
+    }
+}

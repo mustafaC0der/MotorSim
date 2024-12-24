@@ -1,0 +1,22 @@
+{
+    "environment": {
+        "temperature": 25,                 
+        "humidity": 60,                    
+        "wind_speed": 5,                   
+        "wind_angle": 30                   
+    },
+    "bike": {
+        "mass": 200,                       
+        "frontal_area": 0.6,               
+        "drag_coefficient": 0.35,          
+        "rolling_resistance_coefficient": 0.015 
+    },
+    "terrain": {
+        "elevation_change": 0,            
+        "surface_roughness_factor": 1.0   
+    },
+    "simulation_conditions": {
+        "time_step": 0.01,                 
+        "total_time": 10                   
+    }
+}
